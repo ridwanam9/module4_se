@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://api.platzi.com'
+const API_URL = 'https://fakeapi.platzi.com/'
 
 export const login = async (email: string, password: string) => {
     const response = await axios.post(`${API_URL}/users/login`, { email, password })
